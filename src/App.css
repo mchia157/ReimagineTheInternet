@@ -1,0 +1,381 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.scroll-container {
+  height: 200vh;
+}
+.title {
+  font-size: 2.5rem;
+  color: rgb(1, 1, 20);
+  margin-bottom: 20px; 
+  text-align: left; 
+}
+
+.section {
+  padding: 40px 20px; 
+  height: auto; 
+}
+
+.content {
+  text-align: justify;
+  padding: 0; 
+} 
+
+.content p {
+  margin-bottom: 15px; 
+}
+
+.body {
+  overflow-x: hidden;
+}
+
+/*Nav Bar*/
+
+.navbar {
+  background: white;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-link {
+  color: rgb(1, 1, 20);
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.active.navbar-link{
+  font-weight: 700;
+  font-size: 18px;
+  
+}
+
+@media screen and (max-width: 780px){
+  .navbar-link {
+    font-size: 14px;
+    margin: 0 5px;
+  }
+
+  .active.navbar-link{
+    font-size: 16px;
+  }
+}
+
+/*Home Page*/
+.align-left {
+  display: block;
+  margin-left: 0;
+}
+
+.home {
+  background-color: rgb(1, 1, 20);
+  min-height: 100vh;
+  color: rgb(255, 255, 255);
+  position: relative;
+}
+
+.home-pic {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: auto;
+  
+}
+
+.title-intro {
+  font-size: 9vw;
+  text-align: right;
+}
+
+.paragraph-intro {
+  font-size: 1.3vw;
+}
+
+.content1 {
+  position: relative;
+  z-index: 1;
+}
+
+.content1 {
+  margin-top: 20%;
+  text-align: right;
+}
+
+@media screen and (max-width: 780px){
+  .home-pic {
+    opacity: 1;
+  }
+  .content1 {
+    position: relative;
+    z-index: 1;
+    margin-top: 0;
+    padding-top: 25%;
+  }
+
+  .content1::before {
+    content: ""; 
+    min-height: 100vh;
+    min-width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    background: rgb(1, 1, 20, 0.5); 
+    z-index: -1;  
+  }
+
+  .title-intro {
+    font-size: 20vw;
+  }
+
+  .paragraph-intro {
+    font-size: 3vw;
+  }
+
+}
+
+
+
+/*History*/
+
+.history{
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.history-image {
+  width: 30%;
+  height: auto;
+}
+
+.history-content{
+  font-size: 1.3vw;
+}
+
+@media screen and (max-width: 780px){
+  .history-image {
+    width: 70%;
+    height: auto;
+  }
+
+  .history-title {
+    font-size: 7vw;
+  }
+
+  .history-content {
+    font-size: 3vw;
+  }
+
+}
+
+
+/*Etymology*/
+
+.etymology {
+  min-height: 100vh;
+  padding: 20px;
+  background-color: rgb(1, 1, 20);
+  color: white;
+}
+
+.etymology-image {
+  width: 50%;
+  height: auto;
+}
+
+.etymology-title {
+  color: white;
+}
+
+
+@media screen and (max-width: 780px){
+  .etymology-image {
+    width: 70%;
+    height: auto;
+  }
+
+  .etymology-title {
+    font-size: 7vw;
+  }
+
+  .etymology-content {
+    font-size: 3vw;
+  }
+
+}
+
+/*Characteristics*/
+.characteristics-section {
+  padding-bottom: 0 !important;
+}
+img {
+  max-width: 100%; 
+  height: auto;
+  display: block; 
+  margin: 0 auto; 
+  object-fit: contain;
+}
+
+.check {
+  margin-right: 10px;
+  color: rgb(1, 1, 20);
+}
+
+/*Breeds*/
+.breeds {
+  background-color: rgb(1, 1, 20);
+  color: white;
+  display: flex;
+  /* flex-direction: column; */
+  overflow-y: hidden;
+  min-height: 100vh;
+  
+}
+
+.breeds-title {
+  color: white;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.navbar-breeds{
+  height: 100vh;
+}
+/*Vertical Navbar*/
+.vertical-navbar {
+  position: sticky;
+  min-height: 100vh;
+}
+
+/*Vertical Navbar*/
+
+.vertical-navbar {
+  height: 100vh;
+}
+
+.active.navbar-link-breeds {
+  writing-mode: vertical-rl;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.navbar-link-breeds {
+  writing-mode: vertical-lr;
+  font-weight: 400;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+
+/*Horizontal scrolling*/
+.wrapper {
+  display: flex;                     
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;    
+  min-width: 450vw;                       
+  padding-top: 100px;
+  background-color: rgb(1, 1, 20);
+  align-items: center;
+  align-items: center;  
+  -ms-overflow-style: none;                    
+}
+
+.wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.breed {
+  height: 5px;
+  width: 900px;
+  background-color: white !important;
+}
+
+
+.circleWrapper {
+  position: relative;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;  /* Arrange title and paragraph vertically */
+  justify-content: center; /* Center the content inside */
+  align-items: center;
+  position: relative;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.circleWrapper div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 14px; 
+  color:  rgb(1, 1, 20);
+  border-radius: 50%; 
+  width: 80vw; 
+  height: 70vh; 
+  padding: 10px; 
+  background-color: rgb(255, 255, 255); 
+  line-height: 1.4; 
+  word-wrap: break-word; 
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
