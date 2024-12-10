@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/ReimagineTheInternet/static/css/main.2d1b9797.css",
-    "main.js": "/ReimagineTheInternet/static/js/main.c62033cc.js",
+    "main.css": "/ReimagineTheInternet/static/css/main.b87b2def.css",
+    "main.js": "/ReimagineTheInternet/static/js/main.6d7ba066.js",
     "static/js/453.c1b49b8d.chunk.js": "/ReimagineTheInternet/static/js/453.c1b49b8d.chunk.js",
+    "static/media/etymology.jpg": "/ReimagineTheInternet/static/media/etymology.a3d8c2a36873798fccca.jpg",
     "static/media/Husky.png": "/ReimagineTheInternet/static/media/Husky.f06fa6e6a98ad520892d.png",
     "static/media/characteristics.png": "/ReimagineTheInternet/static/media/characteristics.e470b2b9fc13f96c270c.png",
-    "static/media/etymology.jpg": "/ReimagineTheInternet/static/media/etymology.44ccda70cb32eb6023ad.jpg",
     "static/media/labrador-husky.JPG": "/ReimagineTheInternet/static/media/labrador-husky.33a12a85b3b835b069b9.JPG",
     "static/media/alaskan-husky.jpg": "/ReimagineTheInternet/static/media/alaskan-husky.e20571af7923b3d65639.jpg",
     "static/media/sakhalin-husky.jpg": "/ReimagineTheInternet/static/media/sakhalin-husky.20104c9f8f3bf9ef4da8.jpg",
     "static/media/mackenzie-husky.jpg": "/ReimagineTheInternet/static/media/mackenzie-husky.8dfd821673b2dfeea5d6.jpg",
     "index.html": "/ReimagineTheInternet/index.html",
-    "main.2d1b9797.css.map": "/ReimagineTheInternet/static/css/main.2d1b9797.css.map",
-    "main.c62033cc.js.map": "/ReimagineTheInternet/static/js/main.c62033cc.js.map",
+    "main.b87b2def.css.map": "/ReimagineTheInternet/static/css/main.b87b2def.css.map",
+    "main.6d7ba066.js.map": "/ReimagineTheInternet/static/js/main.6d7ba066.js.map",
     "453.c1b49b8d.chunk.js.map": "/ReimagineTheInternet/static/js/453.c1b49b8d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d1b9797.css",
-    "static/js/main.c62033cc.js"
+    "static/css/main.b87b2def.css",
+    "static/js/main.6d7ba066.js"
   ]
 }
